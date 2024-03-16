@@ -1,0 +1,51 @@
+button {
+    border: 2px solid #FFC727;
+    border-radius: 4px;
+    font-size: larger;
+    margin: 6px;
+    color: rgb(17, 16, 16);
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    /* margin-bottom: 25px; */
+  }
+  button:hover {
+    background-color: #FFC727;
+    color: rgb(255, 255, 255);
+  }
+  img{
+    max-width: 43%;
+    max-height: 30%;
+  }
+  body {
+    background-image: url("bg-image.jpg");
+    background-repeat:no-repeat;
+    overflow:auto;
+    background-size:cover;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 2%;
+  }
+  #app {
+    border: 5px solid #FFC727;
+    border-radius: 8px;
+    padding: 17px;
+    background-color: rgb(245, 245, 245);
+  }
+  #task-container {
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+  }
+  #input {
+    border: 2px solid #FFC727;
+    border-radius: 4px;
+    font-size: larger
+  }
+  #input:hover {
+    color: rgb(27, 0, 0);
+  }
+ 
